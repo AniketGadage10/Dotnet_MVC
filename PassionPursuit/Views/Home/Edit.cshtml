@@ -1,0 +1,73 @@
+﻿@using BOL;
+@{
+    var str=ViewData["welcome"];
+    <h1 align="center">@str</h1>
+}
+
+
+<div align="center" style="border: 1px solid blue">
+    @{
+        User U=ViewBag.user;
+    }
+    <form action="/Home/Edit" method="post">
+        <table>
+            <br />
+            <br />
+            <tr>
+                <Label>User_ID</Label>
+                <input type="text" id="id" name="id" value="@U.id" readonly/>
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>User_Name</Label>
+                <input type="text" id="name" name="name" value="@U.name" />
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>User_Age</Label>
+                <input type="text" id="age" name="age" min="18" value="@U.age"/>
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>User_Email</Label>
+                <input type="email" id="email" name="email" value="@U.email" />
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>User_Password</Label>
+                <input type="password" id="password" name="password" value="@U.password"/>
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>User_hobies</Label>
+                <select name="hobies" id="hobies">
+                    <option value="MUSIC">MUSIC</option>
+                    <option value="DANCING">DANCING</option>
+                    <option value="GAMING">GAMING</option>
+                    <option value="TEACHING">TEACHING</option>
+                </select>
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>Birth_Date</Label>
+                <input type="date" id="dob" name="dob" value="@U.dob"/>
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <button type="submit" class="btn btn-success">Register</button>
+                <button type="reset" class="btn btn-light">Clear</button
+              
+            </tr>
+            <br />
+            <br />
+        </table>
+    </form>
+</div>
+

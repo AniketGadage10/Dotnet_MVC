@@ -1,0 +1,12 @@
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\bin\Debug\net7.0\BOL.deps.json
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\bin\Debug\net7.0\BOL.dll
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\bin\Debug\net7.0\BOL.pdb
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.dll
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\refint\BOL.dll
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\BOL.pdb
+C:\Users\dac\Desktop\Aniket_Rohit\dotnet\PassionPursuit\BOL\obj\Debug\net7.0\ref\BOL.dll

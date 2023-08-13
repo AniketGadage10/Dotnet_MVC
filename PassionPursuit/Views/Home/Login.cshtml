@@ -1,0 +1,29 @@
+﻿
+@{
+    var str = ViewData["welcome"];
+    <h1 align="center">@str</h1>
+}
+<div align="center" style="border: 1px solid green">
+    <form action="/Home/Login" method="post">
+        <table>    
+        <tr>
+                <Label>User_Email</Label>
+                <input type="email" id="email" name="email" />
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <Label>User_Password</Label>
+                <input type="password" id="password" name="password" />
+            </tr>
+            <br />
+            <br />
+            <tr>
+                <button type="submit" class="btn btn-success">Register</button>
+                <button type="reset" class="btn btn-light">Clear</button>
+            </tr>
+            <br />
+            <br />
+        </table>
+    </form>
+</div>
